@@ -43,7 +43,8 @@ python3 main.py
 
 **Endpoint**:
 
-- URL: `http://localhost:5000/`
+- Development URL: `http://localhost:5000/`
+- Production URL: `https://tonybnya-hng-12-api.onrender.com/`
 - Method: `GET`
 - CORS: Enabled for all origins
 
