@@ -54,7 +54,7 @@ python3 main.py
 {
     "email": "tonybnya@gmail.com",
     "current_datetime": "2023-09-08T15:30:45Z",
-    "github_url": "https://github.com/tonybnya/hng12/backend/stage_0"
+    "github_url": "https://github.com/tonybnya/hng12/tree/main/backend/stage_0"
 }
 ```
 

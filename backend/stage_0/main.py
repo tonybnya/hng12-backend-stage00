@@ -15,7 +15,7 @@ def home():
     infos = {
         "email": "tonybnya@gmail.com",
         "current_datetime": get_current_iso_datetime(),
-        "github_url": "https://github.com/tonybnya/hng12/backend/stage_0",
+        "github_url": "https://github.com/tonybnya/hng12/tree/main/backend/stage_0",
     }
     return jsonify(infos), 200
 
