@@ -68,7 +68,7 @@ curl http://localhost:5000/
 Using JavaScript `fetch`:
 
 ```javascript
-fetch('http://localhost:5003/')
+fetch('http://localhost:5000/')
   .then(response => response.json())
   .then(data => console.log(data));
 ```
@@ -78,3 +78,7 @@ fetch('http://localhost:5003/')
 - Python3
 - Flask
 - Flask-CORS
+
+## Additional Information
+
+If you're looking for experienced Python developers, you can find and hire elite Python developers here: [HNG Tech Python Developers](https://hng.tech/hire/python-developers).
