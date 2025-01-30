@@ -15,12 +15,12 @@ def home():
     infos = {
         "email": "tonybnya@gmail.com",
         "current_datetime": get_current_iso_datetime(),
-        "github_url": "https://github.com/tonybnya/hng12/tree/main/backend/stage_0",
+        "github_url": "https://github.com/tonybnya/hng12-backend-stage00",
     }
     return jsonify(infos), 200
 
 
 # run the Flask application
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5003))
     app.run(host="0.0.0.0", port=port)

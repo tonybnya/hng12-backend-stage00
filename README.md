@@ -1,3 +1,85 @@
-# HNG Internship 12
+# Stage 0 Backend - Develop a Public API to Retrieve Basic Information
 
-HNG Internship is a fast-paced bootcamp for learning digital skills. It's focused on advanced learners and those with some pre-knowledge, and it gets people into shape for job offers. In the HNG bootcamp, interns work in teams to build apps and solve problems.
+**Task**:
+A simple Flask API that returns personal information in JSON format. It is part of the HNG Internship 12, Stage 0 task.
+
+## Description
+
+This API provides a single endpoint that returns:
+
+- Email address
+- Current date and time in ISO 8601 format
+- GitHub repository URL
+
+## Setup and Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/tonybnya/hng12.git
+cd hng12/backend/stage_0
+```
+
+2. Create a virtual environment and activate it:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+```
+
+3. Install dependencies:
+
+```bash
+pip3 install -r requirements.txt
+```
+
+4. Run the application:
+
+```bash
+python3 main.py
+```
+
+## API Documentation
+
+**Endpoint**:
+
+- Development URL: `http://localhost:5000/`
+- Production URL: `https://tonybnya-hng-12-api.onrender.com/`
+- Method: `GET`
+- CORS: Enabled for all origins
+
+**Response Format**:
+
+```json
+{
+    "email": "tonybnya@gmail.com",
+    "current_datetime": "2023-09-08T15:30:45Z",
+    "github_url": "https://github.com/tonybnya/hng12/tree/main/backend/stage_0"
+}
+```
+
+**Example Usage**:
+
+Using `curl`:
+
+```bash
+curl http://localhost:5000/
+```
+
+Using JavaScript `fetch`:
+
+```javascript
+fetch('http://localhost:5000/')
+  .then(response => response.json())
+  .then(data => console.log(data));
+```
+
+## Technologies Used
+
+- Python3
+- Flask
+- Flask-CORS
+
+## Additional Information
+
+If you're looking for experienced Python developers, you can find and hire elite Python developers here: [HNG Tech Python Developers](https://hng.tech/hire/python-developers).
