@@ -16,8 +16,8 @@ This API provides a single endpoint that returns:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/tonybnya/hng12.git
-cd hng12/backend/stage_0
+git clone https://github.com/tonybnya/hng12-backend-stage00.git
+cd hng12-backend-stage00
 ```
 
 2. Create a virtual environment and activate it:
